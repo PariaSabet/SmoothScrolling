@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--nav-width: 15vw;
+}
+
+body {
+	margin: 0;
+	padding-left: var(--nav-width);
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	width: var(--nav-width);
+	height: 100vh;
+	padding: 2em;
+	background: #333;
+	color: white;
+}
+
+a {
+	position: fixed;
+	left: 0;
+	width: var(--nav-width);
+	height: 100vh;
+	padding: 2em;
+	background: #333;
+	color: white;
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	margin: 3em 0;
+}
